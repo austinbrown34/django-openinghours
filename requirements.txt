@@ -1,2 +1,3 @@
-django-threadlocals
-django-compat
+django-compat==1.0.15
+django-threadlocals==0.10
+six==1.16.0
