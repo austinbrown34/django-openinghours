@@ -7,7 +7,8 @@ except ImportError:
 from openinghours.models import OpeningHours, ClosingRules, PREMISES_MODEL
 from django.core.exceptions import ImproperlyConfigured
 
-from compat import get_model
+# from compat import get_model
+from django.apps import apps
 
 
 def get_premises_model():
